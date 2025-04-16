@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café - Llamado la Montuna</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Llamado la Montuna</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mision-vision.html">Misión y Visión</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre-nosotros.html">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Productos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="productos.html">Todos los Productos</a></li>
+                            <li><a class="dropdown-item" href="productos-mane.html">Mañe</a></li>
+                            <li><a class="dropdown-item active" href="productos-cafe.html">Café</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="plan-manejo.html">Plan de Manejo</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h1 class="display-4 fw-bold text-primary mb-4">Nuestro Café</h1>
+                    <p class="lead mb-4">
+                        Descubre nuestra selección de cafés de alta calidad, cultivados en las mejores condiciones y procesados
+                        con cuidado para garantizar un sabor excepcional.
+                    </p>
+                    <a href="productos.html" class="btn btn-outline-primary">
+                        <i class="fas fa-arrow-left me-2"></i> Volver a Productos
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="py-5">
+        <div class="container">
+            <!-- Product 1 -->
+            <div id="1" class="row g-4 align-items-center mb-5 pb-5 border-bottom">
+                <div class="col-lg-6">
+                    <div class="rounded shadow-sm overflow-hidden">
+                        <img src="https://via.placeholder.com/600x400" alt="Café Premium" class="img-fluid w-100">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                        <i class="fas fa-coffee text-primary fa-2x"></i>
+                        <h2 class="h2 fw-bold text-primary mb-0">Café Premium</h2>
+                    </div>
+                    <p class="h3 fw-bold text-primary mb-3">$12.99</p>
+                    <p class="text-muted mb-4">
+                        Café de alta calidad con un sabor intenso y aromático. Cultivado en altitudes superiores a 1,500 metros sobre el nivel del mar, este café presenta notas de chocolate, caramelo y un toque de frutas cítricas.
+                    </p>
+                    <div class="mb-4">
+                        <h3 class="h5 fw-semibold text-primary mb-3">Características:</h3>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item d-flex align-items-center ps-0">
+                                <span class="bg-primary rounded-circle me-2" style="width: 8px; height: 8px;"></span>
+                                Origen: Montañas Altas
+                            </li>
+                            <li class="list-group-item d-flex align-items-center ps-0">
+                                <span class="bg-primary rounded-circle me-2" style="width: 8px; height: 8px;"></span>
+                                Variedad: Arábica
+                            </li>
+                            <li class="list-group-item d-flex align-items-center ps-0">
+                                <span class="bg-primary rounded-circle me-2" style="width: 8px; height: 8px;"></span>
+                                Tueste: Medio
+                            </li>
+                            <li class="list-group-item d-flex align-items-center ps-0">
+                                <span class="bg-primary rounded-circle me-2" style="width: 8px; height: 8px;"></span>
+                                Presentación: Granos enteros o molido
+                            </li>
+                            <li class="list-group-item d-flex align-items-center ps-0">
+                                <span class="bg-primary rounded-circle me-2" style="width: 8px; height: 8px;"></span>
+                                Peso: 250g
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-primary">Comprar Ahora</button>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div id="2" class="row g-4 align-items-center mb-5 pb-5 border-bottom bg-light py-5 mx-n3 px-3">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="rounded shadow-sm overflow-hidden">
+                        <img src="https://via.placeholder.com/600x400" alt="Café Orgánico" class="img-fluid w-100">
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                        <i class="fas fa-coffee text-primary fa-2x"></i>
+                        <h2 class="h2 fw-bold text-primary mb-0">Café Orgánico</h2>
+                    </div>
+                    <p class="h3 fw-bold text-primary mb-3">$14.99</p>
+                    <p class="text-muted mb-4">
+                        Café 100% orgánico cultivado sin pesticidas ni químicos. Este café se cultiva respetando el medio ambiente y siguiendo prácticas agrícolas sostenibles. Presenta un sabor equilibrado con notas de nueces y un final suave.
+                    </p>
+                    <div class="mb-4">
+                        <h3 class="h5 fw-semibold text-primary mb-3">Características:</h3>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item d-flex align-items-center ps-0 bg-transparent">
+                                <span class="bg-primary rounded-circle me-2" style="width: 8px; height: 8px;"></span>
+                                Origen: Valles Protegidos
+                            </li>
+                            <li class="list-group-item d-flex align-items-center ps-0 bg-transparent">
+                                <span class="bg-primary rounded-circle me-2" style="width: 8px; height: 8px;"></span>
+                                Variedad: Arábica
+                            </li>
+                            <li class="list-group-item d-flex align-items-center ps-0 bg-transparent">
+                                <span class="bg-primary rounded-circle me-2" style="width: 8px; height: 8px;"></span>
+                                Tueste: Medio-Claro
+                            </li>
+                            <li class="list-group-item d-flex align-items-center ps-0 bg-transparent">
+                                <span class="bg-primary rounded-circle me-2" style="width: 8px; height: 8px;"></span>
+                                Presentación: Granos enteros o molido
+                            </li>
+                            <li class="list-group-item d-flex align-items-center ps-0 bg-transparent">
+                                <span class="bg-primary rounded-circle me-2" style="width: 8px; height: 8px;"></span>
+                                Peso: 250g
+                            </li>
+                            <li class="list-group-item d-flex align-items-center ps-0 bg-transparent">
+                                <span class="bg-primary rounded-circle me-2" style="width: 8px; height: 8px;"></span>
+                                Certificación: Orgánico
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-primary">Comprar Ahora</button>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div id="3" class="row g-4 align-items-center mb-5 pb-5 border-bottom">
+                <div class="col-lg-6">
+                    <div class="rounded shadow-sm overflow-hidden">
+                        <img src="https://via.placeholder.com/600x400" alt="Café Especial" class="img-fluid w-100">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                        <i class="fas fa-coffee text-primary fa-2x"></i>
+                        <h2 class="h2 fw-bold text-primary mb-0">Café Especial</h2>
+                    </div>
+                    <p class="h3 fw-bold text-primary mb-3">$16.99</p>
+                    <p class="text-muted mb-4">
+                        Mezcla especial de granos seleccionados con notas frutales. Este café es el resultado de una cuidadosa selección de los mejores granos de diferentes regiones, creando un perfil de sabor único con notas de frutas rojas, vainilla y un toque de especias.
+                    </p>
+                    <div class="mb-4">
+                        <h3 class="h5 fw-semibold text-primary mb-3">Características:</h3>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item d-flex align-items-center ps-0">
+                                <span class="bg-primary rounded-circle me-2" style="width: 8px; height: 8px;"></span>
+                                Origen: Mezcla de regiones
+                            </li>
+                            <li class="list-group-item d-flex align-items-center ps-0">
+                                <span class="bg-primary rounded-circle me-2" style="width: 8px; height: 8px;"></span>
+                                Variedad: Arábica
+                            </li>
+                            <li class="list-group-item d-flex align-items-center ps-0">
+                                <span class="bg-primary rounded-circle me-2" style="width: 8px; height: 8px;"></span>
+                                Tueste: Medio-Oscuro
+                            </li>
+                            <li class="list-group-item d-flex align-items-center ps-0">
+                                <span class="bg-primary rounded-circle me-2" style="width: 8px; height: 8px;"></span>
+                                Presentación: Granos enteros o molido
+                            </li>
+                            <li class="list-group-item d-flex align-items-center ps-0">
+                                <span class="bg-primary rounded-circle me-2" style="width: 8px; height: 8px;"></span>
+                                Peso: 250g
+                            </li>
+                            <li class="list-group-item d-flex align-items-center ps-0">
+                                <span class="bg-primary rounded-circle me-2" style="width: 8px; height: 8px;"></span>
+                                Edición: Limitada
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-primary">Comprar Ahora</button>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div id="4" class="row g-4 align-items-center bg-light py-5 mx-n3 px-3">
+                <div class="col-lg-6 order-lg-2">
+                    <div class="rounded shadow-sm overflow-hidden">
+                        <img src="https://via.placeholder.com/600x400" alt="Café Descafeinado" class="img-fluid w-100">
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                        <i class="fas fa-coffee text-primary fa-2x"></i>
+                        <h2 class="h2 fw-bold text-primary mb-0">Café Descafeinado</h2>
+                    </div>
+                    <p class="h3 fw-bold text-primary mb-3">$13.99</p>
+                    <p class="text-muted mb-4">
+                        Todo el sabor del café sin la cafeína. Nuestro café descafeinado mantiene todas las características de sabor de un buen café, pero sin los efectos estimulantes de la cafeína.
+                    </p>
+                    <div class="mb-4">
+                        <h3 class="h5 fw-semibold text-primary mb-3">Características:</h3>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item d-flex align-items-center ps-0 bg-transparent">
+                                <span class="bg-primary rounded-circle me-2" style="width: 8px; height: 8px;"></span>
+                                Origen: Montañas Altas
+                            </li>
+                            <li class="list-group-item d-flex align-items-center ps-0 bg-transparent">
+                                <span class="bg-primary rounded-circle me-2" style="width: 8px; height: 8px;"></span>
+                                Variedad: Arábica
+                            </li>
+                            <li class="list-group-item d-flex align-items-center ps-0 bg-transparent">
+                                <span class="bg-primary rounded-circle me-2" style="width: 8px; height: 8px;"></span>
+                                Tueste: Medio
+                            </li>
+                            <li class="list-group-item d-flex align-items-center ps-0 bg-transparent">
+                                <span class="bg-primary rounded-circle me-2" style="width: 8px; height: 8px;"></span>
+                                Presentación: Granos enteros o molido
+                            </li>
+                            <li class="list-group-item d-flex align-items-center ps-0 bg-transparent">
+                                <span class="bg-primary rounded-circle me-2" style="width: 8px; height: 8px;"></span>
+                                Peso: 250g
+                            </li>
+                            <li class="list-group-item d-flex align-items-center ps-0 bg-transparent">
+                                <span class="bg-primary rounded-circle me-2" style="width: 8px; height: 8px;"></span>
+                                Proceso: Descafeinado con agua
+                            </li>
+                        </ul>
+                    </div>
+                    <button class="btn btn-primary">Comprar Ahora</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <h3 class="h5 mb-3">Llamado la Montuna</h3>
+                    <p class="text-muted mb-3">Productos naturales directamente de nuestra tierra a tu mesa.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-muted"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-muted"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-muted"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <h3 class="h5 mb-3">Enlaces</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" class="text-muted text-decoration-none">Inicio</a></li>
+                        <li class="mb-2"><a href="mision-vision.html" class="text-muted text-decoration-none">Misión y Visión</a></li>
+                        <li class="mb-2"><a href="sobre-nosotros.html" class="text-muted text-decoration-none">Sobre Nosotros</a></li>
+                        <li class="mb-2"><a href="productos.html" class="text-muted text-decoration-none">Productos</a></li>
+                        <li class="mb-2"><a href="plan-manejo.html" class="text-muted text-decoration-none">Plan de Manejo</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <h3 class="h5 mb-3">Contacto</h3>
+                    <address class="text-muted">
+                        <p class="mb-2">Calle Principal #123</p>
+                        <p class="mb-2">Ciudad, País</p>
+                        <p class="mb-2">Teléfono: (123) 456-7890</p>
+                        <p class="mb-2">Email: info@llamadolamontuna.com</p>
+                    </address>
+                </div>
+            </div>
+
+            <div class="border-top border-secondary mt-4 pt-4 text-center text-muted">
+                <p>&copy; <span id="current-year"></span> Llamado la Montuna. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>

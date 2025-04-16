@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Llamado la Montuna</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">Llamado la Montuna</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mision-vision.html">Misión y Visión</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre-nosotros.html">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Productos
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item active" href="productos.html">Todos los Productos</a></li>
+                            <li><a class="dropdown-item" href="productos-mane.html">Mañe</a></li>
+                            <li><a class="dropdown-item" href="productos-cafe.html">Café</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="plan-manejo.html">Plan de Manejo</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 text-center">
+                    <h1 class="display-4 fw-bold text-primary mb-4">Nuestros Productos</h1>
+                    <p class="lead mb-4">
+                        Descubre nuestra selección de productos de alta calidad, cultivados y procesados con amor y dedicación.
+                    </p>
+                    <div class="d-flex justify-content-center gap-3">
+                        <a href="productos-cafe.html" class="btn btn-primary">
+                            Ver Café <i class="fas fa-coffee ms-2"></i>
+                        </a>
+                        <a href="productos-mane.html" class="btn btn-secondary">
+                            Ver Maní <i class="fas fa-leaf ms-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Product 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm product-card">
+                        <div class="position-relative">
+                            <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Café Premium">
+                            <div class="position-absolute top-0 end-0 bg-white p-2 rounded-circle m-2">
+                                <i class="fas fa-coffee text-primary"></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h3 class="h5 text-primary mb-0">Café Premium</h3>
+                                <span class="fw-bold text-primary">$12.99</span>
+                            </div>
+                            <p class="card-text text-muted">Café de alta calidad con un sabor intenso y aromático.</p>
+                        </div>
+                        <div class="card-footer bg-white">
+                            <a href="productos-cafe.html#1" class="btn btn-outline-primary w-100">
+                                Ver detalles <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm product-card">
+                        <div class="position-relative">
+                            <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Café Orgánico">
+                            <div class="position-absolute top-0 end-0 bg-white p-2 rounded-circle m-2">
+                                <i class="fas fa-coffee text-primary"></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h3 class="h5 text-primary mb-0">Café Orgánico</h3>
+                                <span class="fw-bold text-primary">$14.99</span>
+                            </div>
+                            <p class="card-text text-muted">Café 100% orgánico cultivado sin pesticidas ni químicos.</p>
+                        </div>
+                        <div class="card-footer bg-white">
+                            <a href="productos-cafe.html#2" class="btn btn-outline-primary w-100">
+                                Ver detalles <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm product-card">
+                        <div class="position-relative">
+                            <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Café Especial">
+                            <div class="position-absolute top-0 end-0 bg-white p-2 rounded-circle m-2">
+                                <i class="fas fa-coffee text-primary"></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h3 class="h5 text-primary mb-0">Café Especial</h3>
+                                <span class="fw-bold text-primary">$16.99</span>
+                            </div>
+                            <p class="card-text text-muted">Mezcla especial de granos seleccionados con notas frutales.</p>
+                        </div>
+                        <div class="card-footer bg-white">
+                            <a href="productos-cafe.html#3" class="btn btn-outline-primary w-100">
+                                Ver detalles <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm product-card">
+                        <div class="position-relative">
+                            <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Maní Natural">
+                            <div class="position-absolute top-0 end-0 bg-white p-2 rounded-circle m-2">
+                                <i class="fas fa-leaf text-secondary"></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h3 class="h5 text-primary mb-0">Maní Natural</h3>
+                                <span class="fw-bold text-primary">$8.99</span>
+                            </div>
+                            <p class="card-text text-muted">Maní natural sin sal, perfecto para snacks saludables.</p>
+                        </div>
+                        <div class="card-footer bg-white">
+                            <a href="productos-mane.html#4" class="btn btn-outline-primary w-100">
+                                Ver detalles <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm product-card">
+                        <div class="position-relative">
+                            <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Maní Tostado">
+                            <div class="position-absolute top-0 end-0 bg-white p-2 rounded-circle m-2">
+                                <i class="fas fa-leaf text-secondary"></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h3 class="h5 text-primary mb-0">Maní Tostado</h3>
+                                <span class="fw-bold text-primary">$9.99</span>
+                            </div>
+                            <p class="card-text text-muted">Maní tostado con un sabor intenso y crujiente.</p>
+                        </div>
+                        <div class="card-footer bg-white">
+                            <a href="productos-mane.html#5" class="btn btn-outline-primary w-100">
+                                Ver detalles <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm product-card">
+                        <div class="position-relative">
+                            <img src="https://via.placeholder.com/400x300" class="card-img-top" alt="Mantequilla de Maní">
+                            <div class="position-absolute top-0 end-0 bg-white p-2 rounded-circle m-2">
+                                <i class="fas fa-leaf text-secondary"></i>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center mb-2">
+                                <h3 class="h5 text-primary mb-0">Mantequilla de Maní</h3>
+                                <span class="fw-bold text-primary">$11.99</span>
+                            </div>
+                            <p class="card-text text-muted">Mantequilla de maní 100% natural sin aditivos.</p>
+                        </div>
+                        <div class="card-footer bg-white">
+                            <a href="productos-mane.html#6" class="btn btn-outline-primary w-100">
+                                Ver detalles <i class="fas fa-arrow-right ms-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <h3 class="h5 mb-3">Llamado la Montuna</h3>
+                    <p class="text-muted mb-3">Productos naturales directamente de nuestra tierra a tu mesa.</p>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-muted"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-muted"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-muted"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <h3 class="h5 mb-3">Enlaces</h3>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" class="text-muted text-decoration-none">Inicio</a></li>
+                        <li class="mb-2"><a href="mision-vision.html" class="text-muted text-decoration-none">Misión y Visión</a></li>
+                        <li class="mb-2"><a href="sobre-nosotros.html" class="text-muted text-decoration-none">Sobre Nosotros</a></li>
+                        <li class="mb-2"><a href="productos.html" class="text-muted text-decoration-none">Productos</a></li>
+                        <li class="mb-2"><a href="plan-manejo.html" class="text-muted text-decoration-none">Plan de Manejo</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <h3 class="h5 mb-3">Contacto</h3>
+                    <address class="text-muted">
+                        <p class="mb-2">Calle Principal #123</p>
+                        <p class="mb-2">Ciudad, País</p>
+                        <p class="mb-2">Teléfono: (123) 456-7890</p>
+                        <p class="mb-2">Email: info@llamadolamontuna.com</p>
+                    </address>
+                </div>
+            </div>
+
+            <div class="border-top border-secondary mt-4 pt-4 text-center text-muted">
+                <p>&copy; <span id="current-year"></span> Llamado la Montuna. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
